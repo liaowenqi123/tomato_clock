@@ -56,3 +56,22 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# 编辑 .gitignore
+echo "
+# Build files
+*.rar
+*.zip
+*.7z
+
+# IDE files
+.vscode/
+*.slnx
+.vsconfig
+
+# Unity generated
+UpgradeLog.htm
+debug_log.txt
+
+# OS files
+.D
